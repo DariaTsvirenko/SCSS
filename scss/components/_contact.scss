@@ -1,0 +1,164 @@
+.contact {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    padding-left: 157px;
+    padding-right: 157px;
+    
+
+   
+    &__info4 {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        
+
+
+
+    }
+
+    &__contact {
+    color: #F3F4F6;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 64px;
+    padding-right: 442px;
+    padding-left: 442px;
+
+        
+        span{
+
+            color: #EAB308;
+            font-family: Lexend Deca;
+            font-size: 42px;
+            font-weight: 700;
+            line-height: 64px;
+
+    }
+
+
+
+    }
+
+    &__desc5 {
+        color: #9CA3AF;
+        text-align: center;
+        font-family: Lexend Deca;
+        font-size: 16px; 
+        font-weight: 400;
+        line-height: 27px;
+        margin-top: 24px; 
+        padding-left: 220px;
+        padding-right: 220px;
+        margin-bottom: 56px;
+
+
+
+
+    }
+
+    &__pr {
+        list-style-type: none;
+
+
+
+    }
+    &__wrapper{
+        display: flex;
+       padding-left: 50px;
+        gap: 223px;
+        
+    }
+
+    &__personal-information {
+        
+    
+        width: 347px;
+        color: #F3F4F6;
+        font-family: Lexend Deca;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 41px;
+        padding: 16px;
+        span {
+            color: #EAB308;
+            font-family: Lexend Deca;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 41px; 
+        }
+
+        @include mobile {
+            flex-direction: column;
+        
+            }
+
+
+
+    }
+
+    &__form {
+        gap: 32px;
+
+        @include mobile {
+            flex-direction: column;
+        
+            }
+
+
+    }
+
+    &__name {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 350px;
+        height: 63px;
+        flex-shrink: 0;
+        background: #1F2937;
+        border-color: #1F2937;
+        margin-bottom: 32px;
+
+
+        &::placeholder {
+            color: #F3F4F6;
+        font-family: Lexend Deca;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 41px; 
+        }
+
+    }
+
+    &__message{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    width: 540px;
+    height: 166px;
+    flex-shrink: 0;
+    background: #1F2937;
+    border-color: #1F2937;
+    margin-bottom: 32px;
+        
+
+    &::placeholder {
+        color:#F3F4F6; 
+        font-family: Lexend Deca;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 41px; 
+    }
+
+
+    }
+   
+
+    &__btn {
+
+
+
+    }
+}
+
